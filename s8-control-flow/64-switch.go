@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 func main() {
+	// Switch with no expression == switch true {}
 	switch {
 	case false:
 		fmt.Println("This should not print")
@@ -17,8 +18,7 @@ func main() {
 		fmt.Println("this is default")
 	}
 
-	x := 42
-	switch x {
+	switch x := 42; x {
 	case 41:
 		fmt.Println("x is 41")
 	case 42:
