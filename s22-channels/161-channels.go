@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+// Bi-directional Channels
 func main() {
 	// chan for chnanel to put int
 	c := make(chan int)
