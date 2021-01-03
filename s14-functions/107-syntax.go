@@ -4,6 +4,8 @@ import "fmt"
 
 func main() {
 	foo()
+	fmt.Printf("%T\n", foo)
+
 	bar("Bob")
 	s1 := woo("Bob")
 	fmt.Println(s1)
