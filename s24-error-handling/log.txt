@@ -1,0 +1,2 @@
+2021/01/04 09:29:28 open no-file.txt: no such file or directory
+2021/01/04 09:29:28 Fatal open no-file.txt: no such file or directory
